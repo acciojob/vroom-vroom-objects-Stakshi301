@@ -3,37 +3,13 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-        function Car(make, model) {
-            this.make = make;
-            this.model = model;
-          }
-          
-          Car.prototype.getMakeModel = function () {
-            return this.make + " " + this.model;
-          };
-          
-          function SportsCar(make, model, topSpeed) {
-            Car.call(this, make, model);
-            this.topSpeed = topSpeed;
-          }
-          
-          SportsCar.prototype = Object.create(Car.prototype);
-          SportsCar.prototype.constructor = SportsCar;
-          
-          SportsCar.prototype.getTopSpeed = function () {
-            return this.topSpeed;
-          };
-          
-          // Do not change the code below
-          window.Car = Car;
-          window.SportsCar = SportsCar;
-</script>
+    <!-- the entire body must be written by student -->
+    
+    <script type="text/javascript" src="./script.js"></script>
 
 </body>
 
